@@ -1,0 +1,20 @@
+/* Smart Phones And Tablets */
+@media (max-width:768px) {
+  .row>.col-sm-6 {
+    width: 50% !important
+  }
+  .menu .heading h4 {
+    font-size: 17px
+  }
+  .menu .box-content-link a {
+    font-size: 15px
+  }
+}
+
+/* Small Screen */
+
+@media (min-width:769px) and (max-width:991px) {}
+
+/* Medium Screen */
+
+@media (min-width:992px) and (max-width:1199px) {}
