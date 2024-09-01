@@ -211,8 +211,8 @@ body::-webkit-scrollbar-thumb {
 
   & .close-pop {
     position: sticky;
-    top: 15px;
-    right: 45%;
+    top: 20px;
+    right: 30px;
     background: var(--main-color);
     border-radius: 5px;
     width: 40px;
