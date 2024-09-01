@@ -19,6 +19,7 @@ $(function () {
 // Quran Kareem
 let surahsContainer = document.querySelector('.name-surah');
 getSurahs();
+
 function getSurahs() {
   // fetch surahs names
   fetch("http://api.alquran.cloud/v1/meta")
@@ -29,10 +30,12 @@ function getSurahs() {
       surahsContainer.innerHTML = "";
       for (i = 0; i < numberOfSurahs; i++) {
         surahsContainer.innerHTML += `
-        <div class="surah m-2">
-          <p class="m-0 mb-2">${surahs[i].number}</p>
-          <p class="m-0 mb-2">${surahs[i].name}</p>
-          <p class="m-0">${surahs[i].englishName}</p>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="surah mt-2 mb-2">
+            <p class="m-0 mb-1">${surahs[i].number}</p>
+            <p class="m-0 mb-1">${surahs[i].name}</p>
+            <p class="m-0">${surahs[i].englishName}</p>
+          </div>
         </div>`
       }
       let surahsTitles = document.querySelectorAll('.surah');
