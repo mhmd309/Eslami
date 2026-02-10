@@ -266,11 +266,11 @@ body::-webkit-scrollbar-thumb {
       text-decoration: none;
       color: #fff;
       background: var(--full-color);
-      border-radius: 5px;
-      padding: 5px 10px;
+      border-radius: 7px;
+      padding: 7px 15px;
       display: block;
       width: fit-content;
-      margin: 5px auto 0;
+      margin: 7px auto 0;
 
       & i {
         position: relative;
@@ -282,3 +282,4 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* End Footer */
+
