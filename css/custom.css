@@ -274,7 +274,7 @@ body::-webkit-scrollbar-thumb {
 
       & i {
         position: relative;
-        top: 3px;
+        top: 2px;
         right: 5px
       }
     }
@@ -282,4 +282,5 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* End Footer */
+
 
